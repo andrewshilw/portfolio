@@ -13,6 +13,15 @@ export default function Home() {
           A place for my experience, projects, and the things I’m working on.
         </p>
         <p className="mt-4 text-sm text-neutral-500">More coming soon.</p>
+        <a
+          href="/andrew-shi-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-flex min-h-11 w-fit items-center gap-2 border-b border-neutral-600 font-mono text-xs uppercase tracking-wider text-neutral-300 transition-colors hover:border-emerald-400 hover:text-emerald-400 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-400"
+        >
+          View resume <span aria-hidden="true">↗</span>
+          <span className="sr-only"> (PDF, opens in a new tab)</span>
+        </a>
       </section>
 
       <footer className="border-t border-neutral-800 pt-6 text-xs text-neutral-500">
